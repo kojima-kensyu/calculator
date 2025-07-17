@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+
+  react:
+    image: react_lab
+    container_name: react_lab
+    build:
+      context: ./frontend_app
+      dockerfile: Dockerfile
+#    command: sh -c "cd /app/ && yarn start"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend_app/app:/app
+#    extra_hosts:
+#      - localhost:192.168.2.2
+    tty: true
