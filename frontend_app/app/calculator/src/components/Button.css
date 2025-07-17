@@ -1,0 +1,76 @@
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.number-button{
+    color: white;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    aspect-ratio: 1.8/1;
+    cursor: pointer;
+}
+
+.number-button:active{
+    opacity: 0.3;
+}
+
+.operator-button{
+    color: white;
+    background-color: #f7ad0e;
+    border: 1px solid #f7ad0e;
+    border-radius: 50%;
+    aspect-ratio: 1.8/1;
+    cursor: pointer;
+}
+
+.operator-button:active{
+    opacity: 0.3;
+}
+
+.equal-button{
+    color: white;
+    background-color: #f7ad0e;
+    border: 1px solid #f7ad0e;
+    border-radius: 50%;
+    aspect-ratio: 1.8/1;
+    cursor: pointer;
+}
+
+.equal-button:active{
+    opacity: 0.3;
+}
+
+.clear-button{
+    color: white;
+    background-color: #d8d2d2;
+    border: 1px solid #AFABAB;
+    border-radius: 50%;
+    aspect-ratio: 1.8/1;
+    cursor: pointer;
+}
+
+.clear-button:active{
+    opacity: 0.3;
+}
+
+@media screen and (min-width: 250px){
+    .number-button{
+        font-size: 150%;
+    }
+    .operator-button{
+        font-size: 150%;
+    }
+    .equal-button{
+        font-size: 150%;
+    }
+    .clear-button{
+        font-size: 150%;
+    }
+}
