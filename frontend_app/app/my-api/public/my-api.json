@@ -1,0 +1,22 @@
+{
+    "todos": [
+        {
+            "id": 1,
+            "title": "react app project",
+            "description": "jsonファイルの中身を記載する",
+            "status": "Incomplete"
+        },
+        {
+            "id": 2,
+            "title": "Buy groceries",
+            "description": "パン、バナナ",
+            "status": "Complete"
+        },
+        {
+            "id": 3,
+            "title": "Buy daily necessities",
+            "description": "シャンプー",
+            "status": "Incomplete"
+        }
+    ]
+}
